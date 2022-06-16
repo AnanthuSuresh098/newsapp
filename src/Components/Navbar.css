@@ -1,0 +1,25 @@
+#navbar_wrapper{
+    font-size: 23px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.navbar_headings{
+   text-decoration: none;
+   color: darkslategray;
+   border-right: 2px solid grey;
+   padding:0px 30px 0px 30px;
+}
+
+.navbar_headings:hover{
+    color: crimson;
+}
+
+#navbar_heading{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#navbar_heading>img{
+    width: 400px;
+}

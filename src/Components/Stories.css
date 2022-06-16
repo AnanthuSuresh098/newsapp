@@ -1,0 +1,56 @@
+.stories_wrapper{
+ margin-top: 70px;
+ display: grid;
+ grid-template-columns: 300px 300px 300px 300px;
+ gap: 30px;
+ justify-content: center;
+}
+
+.stories_image{
+  width: 300px;
+}
+
+.stories_sections{
+    border: 1px solid grey;
+    height: 450px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.stories_time{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+.stories_title{
+    font-size: 23px;
+    margin-top: 15px;
+    padding-left: 5px;
+    text-align:start;
+}
+
+.stories_type{
+    font-size: 18px;
+    margin-top: 25px;
+    padding-left: 5px;
+}
+
+.loading{
+    width: 200px;
+    margin:140px 0px 0px 520px;
+}
+
+.stories_sections:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+    box-shadow: 2px 2px 2px grey;
+}
+
+#home_bg_image{
+    background-image: url("https://nytco-assets.nytimes.com/2018/09/TIMES_JEENAH_0212.jpg?quality=70&auto=webp&crop=16:9&width=1600");
+    margin-top: 20px;
+    height: 600px;
+}
+
