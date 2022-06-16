@@ -36,7 +36,7 @@ const topStoriesFailure = () => ({
 export const TopStoriesData = () => (dispatch) => {
   dispatch(topStoriesReq());
   axios
-    .get("http://newsapp-backend00.herokuapp.com/topstories")
+    .get("https://newsapp-backend00.herokuapp.com/topstories")
     .then((res) => dispatch(topStoriesSuccess(res.data.TopStories)))
     .catch(() => dispatch(topStoriesFailure()));
 };
